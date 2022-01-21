@@ -1,12 +1,10 @@
 import "./App.css";
-import FormInput from "./components/FormInput";
+import User from "./components/User";
 
 const App = () => {
   return (
     <div className="App">
-      <form>
-        <FormInput />
-      </form>
+      <User />
     </div>
   );
 };
